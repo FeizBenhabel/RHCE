@@ -499,7 +499,9 @@ file
     web_package: httpd
     web_service: httpd
 ```
-- you can include your group vars or host vars directory from another location but name of folder should be s and host_vars not random!
+- you can include your group vars or host vars directory from another location but name of folder should be groups_vars and host_vars not random!
+
+- ansible-inventory --host webserver : to see specific host defined variables 
 
 - host vars have the precedence of group vars test by me
 
