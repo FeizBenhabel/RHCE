@@ -112,6 +112,7 @@ Author: "Faiez Ben Habel"
 - to list hosts in the inventory in with ansible command use:
      - ansible -i inventoryfile all --list-hosts
      - ansible -i inventoryfile ungrouped --list-hosts: list ungrouped hosts in the inventory file.
+     - ansible-inventory --list -y: list inventory hosts in yaml format (-y option ,default json format)
 
 ###  Understanding  dynamic inventory:
   static inventory is good but not suitable for big enviroment.so the solution is to use dynamic inventory.
